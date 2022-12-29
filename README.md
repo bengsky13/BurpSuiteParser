@@ -4,7 +4,7 @@ USAGE:
 $burp = new BurpSuiteParser();
 $burp->setSsl(true);
 
-    $data = "POST /api HTTP/1.1
+$data = "POST /api HTTP/1.1
 Host: bengsky.id
 Sec-Ch-Ua-Mobile: ?0
 Sec-Ch-Ua-Platform: "Linux"
@@ -20,5 +20,7 @@ Accept-Language: en-US,en;q=0.9
 Connection: close
 
 body=test";
-    $burp->setRequest($data);
+$burp->setRequest($data);
+echo $burp->getHead();
+echo $burp->getBody();
 ```
