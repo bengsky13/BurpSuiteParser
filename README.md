@@ -1,7 +1,7 @@
 # CURL REQUEST WITH BURP SUITE RAW DATA
 USAGE:
 ```
-`rgb(9, 105, 218)` $burp = new BurpSuiteParser();
+`#0969DA` $burp = new BurpSuiteParser();
 $burp->setSsl(true);
 
     $data = "POST /api HTTP/1.1
