@@ -1,5 +1,6 @@
 # CURL REQUEST WITH BURP SUITE RAW DATA
-```GET /api HTTP/1.1
+
+```POST /api HTTP/1.1
 Host: bengsky.id
 Sec-Ch-Ua-Mobile: ?0
 Sec-Ch-Ua-Platform: "Linux"
@@ -14,4 +15,5 @@ Accept-Encoding: gzip, deflate
 Accept-Language: en-US,en;q=0.9
 Connection: close
 
+body=test
 ```
